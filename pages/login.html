@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DuniaWEB.</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><span>Dunia</span>WEB.</a>
+        <nav>
+            <div class="navbar"></div>
+            <a href="/login">Login</a>
+            <a class="active" href="/">Home</a>
+            <a href="/category">Category</a>
+            <a href="/motivasi">Motivasi</a>
+            <form action="/" method="GET">
+                <input type="text" name="keyword" placeholder="Cari disini ...">
+                <button type="submit">Cari</button>
+            </form>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section class="login">
+            <div class="center-text">
+                <h5>LOGIN</h5>
+            </div>
+            <div class="login-content">
+                <h2>Login</h2>
+                <form action="/login" method="POST">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" placeholder="Username" >
+                    <label for="password">Password</label>
+                    <input type="password" name="password" placeholder="Password" name="password">
+                    <input type="submit" value="Login">
+                </form>
+                <p>Belum Memiliki akun ? <a href="/register">Daftar</p></a>
+                <div class="note">
+                    <p>Note :</p>
+                    <p>Username : daffakz</p>
+                    <p>Password : 1121101949</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
