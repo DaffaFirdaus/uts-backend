@@ -1,0 +1,21 @@
+{
+  "name": "percobaan-uts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "render_html.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": "node render_html.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dffaxyz/web-backend-ku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dffaxyz/web-backend-ku/issues"
+  },
+  "homepage": "https://github.com/dffaxyz/web-backend-ku#readme"
+}
