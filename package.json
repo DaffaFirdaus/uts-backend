@@ -5,17 +5,16 @@
   "main": "render_html.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "script": "node render_html.js"
+    "start": "node render_html.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dffaxyz/web-backend-ku.git"
+    "url": "git+https://github.com/DaffaFirdaus/uts-backend.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dffaxyz/web-backend-ku/issues"
+    "url": "https://github.com/DaffaFirdaus/uts-backend/issues"
   },
-  "homepage": "https://github.com/dffaxyz/web-backend-ku#readme"
+  "homepage": "https://github.com/DaffaFirdaus/uts-backend#readme"
 }
